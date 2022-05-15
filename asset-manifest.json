@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yurasz-portfolio/static/css/main.35789d1f.css",
+    "main.js": "/yurasz-portfolio/static/js/main.7615587a.js",
+    "static/js/787.547ea6f9.chunk.js": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js",
+    "index.html": "/yurasz-portfolio/index.html",
+    "main.35789d1f.css.map": "/yurasz-portfolio/static/css/main.35789d1f.css.map",
+    "main.7615587a.js.map": "/yurasz-portfolio/static/js/main.7615587a.js.map",
+    "787.547ea6f9.chunk.js.map": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35789d1f.css",
+    "static/js/main.7615587a.js"
+  ]
+}
