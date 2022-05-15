@@ -1,0 +1,26 @@
+.contactBlock {
+    width: 100%;
+    height: 100vh;
+    background-color: lightpink;
+}
+
+.contactContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact {
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 844px) {
+    .contact {
+        justify-content: center;
+    }
+}

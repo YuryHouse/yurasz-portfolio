@@ -1,0 +1,25 @@
+.mainBlock {
+    height: 100vh;
+    background-color: lightpink;
+}
+
+.intro {
+    width: 300px;
+    background-color: darkgrey;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: darkgrey;
+}
+
+@media screen and (max-width: 844px) {
+    .container {
+        justify-content: center;
+    }
+    .intro {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
