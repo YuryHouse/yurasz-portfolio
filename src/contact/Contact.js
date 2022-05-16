@@ -9,11 +9,13 @@ function Contact(props) {
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
                 <h2 className={style.title}>Contact me</h2>
                 <form className={style.contact}>
-                    <div><input type={"text"} /></div>
-                    <div><input type={"text"} /></div>
-                    <div><textarea></textarea></div>
+                    <input type={"text"} />
+                    <input type={"text"} />
+                    <textarea></textarea>
                 </form>
-                <Button name={"Send"}/>
+                <div className = {style.contactButton}>
+                    <Button name={"Send"}/>
+                </div>
             </div>
         </div>
     );

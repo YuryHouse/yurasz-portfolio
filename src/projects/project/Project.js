@@ -6,8 +6,8 @@ import Button from "../../common/button/Button";
 function Project(props) {
     return (
         <div className={style.project}>
-            <div className={style.image}>
-                <Button name={'See more'}/>
+            <div className={style.imageContainer}>
+                <Button className={style.projectButton} name={'See more'}/>
             </div>
             <h3>{props.title}</h3>
             <span className={style.description}>{props.description}</span>

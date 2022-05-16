@@ -8,7 +8,10 @@ function Hiring(props) {
         <div className={style.hiringBlock}>
             <div className={`${styleContainer.container} ${style.hiringContainer}`}>
                 <h2 className={style.title}>Looking to work remotely or relocate</h2>
-                <Button name={'Hire мe'}/>
+
+                <div className={style.buttonContainer}>
+                    <Button name={'Hire мe'}/>
+                </div>
             </div>
         </div>
     );
