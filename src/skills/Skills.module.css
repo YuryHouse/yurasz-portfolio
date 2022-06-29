@@ -12,12 +12,6 @@
     border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 844px) {
-    .skills {
-        justify-content: center;
-    }
 }

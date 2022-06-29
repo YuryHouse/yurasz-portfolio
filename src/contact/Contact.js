@@ -1,9 +1,8 @@
 import React from 'react';
 import style from './Contact.module.css'
-import Button from "../common/button/Button";
 import styleContainer from "../common/styles/Container.module.css";
 
-function Contact(props) {
+function Contact() {
     return (
         <div className={style.contactBlock}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
@@ -11,11 +10,9 @@ function Contact(props) {
                 <form className={style.contact}>
                     <input type={"text"} />
                     <input type={"text"} />
-                    <textarea></textarea>
+                    <textarea />
+                    <button type="submit">Send</button>
                 </form>
-                <div className = {style.contactButton}>
-                    <Button name={"Send"}/>
-                </div>
             </div>
         </div>
     );
