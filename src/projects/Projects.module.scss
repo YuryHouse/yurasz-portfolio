@@ -1,17 +1,18 @@
+@import "../../src/common/styles/sass/variables";
+
 .projectsBlock {
   min-height: 100vh;
-  background-color: #030303;
+  background-color: $bgColor;
   @media screen and (max-width: 1180px) {
     min-height: min-content;
   }
   .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #111;
+    background-color: $bgContainerColor;
     min-height: 100vh;
 
     .projects {
-      border: 1px solid;
       width: 100%;
       display: flex;
       justify-content: space-around;
