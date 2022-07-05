@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/yurasz-portfolio/static/css/main.2e120407.css",
-    "main.js": "/yurasz-portfolio/static/js/main.b08b6fe9.js",
+    "main.css": "/yurasz-portfolio/static/css/main.06264336.css",
+    "main.js": "/yurasz-portfolio/static/js/main.05105207.js",
     "static/js/787.547ea6f9.chunk.js": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js",
+    "static/media/social.jpg": "/yurasz-portfolio/static/media/social.9053b1749d450a8e983a.jpg",
+    "static/media/todolist.jpg": "/yurasz-portfolio/static/media/todolist.ad2bf928f5e89b78bf1a.jpg",
+    "static/media/agency.jpg": "/yurasz-portfolio/static/media/agency.7d8158b434c93cb2078f.jpg",
     "index.html": "/yurasz-portfolio/index.html",
-    "main.2e120407.css.map": "/yurasz-portfolio/static/css/main.2e120407.css.map",
-    "main.b08b6fe9.js.map": "/yurasz-portfolio/static/js/main.b08b6fe9.js.map",
+    "main.06264336.css.map": "/yurasz-portfolio/static/css/main.06264336.css.map",
+    "main.05105207.js.map": "/yurasz-portfolio/static/js/main.05105207.js.map",
     "787.547ea6f9.chunk.js.map": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e120407.css",
-    "static/js/main.b08b6fe9.js"
+    "static/css/main.06264336.css",
+    "static/js/main.05105207.js"
   ]
 }
