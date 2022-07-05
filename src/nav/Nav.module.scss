@@ -1,0 +1,26 @@
+@import "../../src/common/styles/sass/mixins";
+@import "../../src/common/styles/sass/variables";
+
+.nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    :nth-child(4) {
+        margin-right: 30px;
+    }
+    @media screen and (max-width: 844px) {
+        :nth-child(4) {
+            margin-right: 0;
+        }
+            margin: 0 5px;
+    }
+}
+.nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: $headersColor;
+    padding: 5px;
+    @include text(15px, 1.2);
+}

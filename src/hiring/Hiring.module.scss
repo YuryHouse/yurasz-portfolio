@@ -1,0 +1,27 @@
+@import "../../src/common/styles/sass/variables";
+
+.hiringBlock {
+    height: auto;
+    background-color: $bgColor;
+    .hiringContainer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .buttonContainer {
+            margin-bottom: 10px;
+        }
+        .buttonContainer button {
+            padding: 10px 20px;
+            background-color: $primaryColor;
+            border: 1px solid transparent;
+            color: $btnColor;
+            letter-spacing: 1px;
+            z-index: 1;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}
