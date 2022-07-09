@@ -1,0 +1,18 @@
+@import "./sass/variables.scss";
+.button {
+  margin: auto 10px ;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  letter-spacing: 1px;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  text-decoration: none;
+  color: $btnColor;
+  background-color: $primaryColor;
+  @media screen and (max-width: 480px) {
+    margin: 10px auto;
+}
+}

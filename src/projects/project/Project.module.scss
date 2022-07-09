@@ -24,19 +24,6 @@
         background-position: center;
         background-repeat: no-repeat;
         position: relative;
-        .viewBtn {
-            padding: 10px 20px;
-            background-color: $primaryColor;
-            border: 1px solid transparent;
-            color: $btnColor;
-            letter-spacing: 1px;
-            z-index: 1;
-            font-size: 15px;
-            font-weight: 600;
-            font-family: 'Montserrat', sans-serif;
-            border-radius: 5px;
-            text-decoration: none;
-        }
         &::before {
             position: absolute;
             content: '';
