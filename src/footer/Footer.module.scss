@@ -1,0 +1,34 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.footerBlock {
+    background-color: $bgColor;
+    width: 100%;
+    height: auto;
+    .footerContainer {
+        background-color: $bgContainerColor;
+        flex-direction: column;
+        justify-content: flex-start;
+        .title {
+            color: $textColor;
+            @include text(24px, 2.0);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .footer {
+            width: 250px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+    .rights {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+        color: $textColor;
+        @include text(18px, 3.0);
+        font-family: 'Montserrat', sans-serif;
+    }
+}
