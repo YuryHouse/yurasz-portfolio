@@ -28,7 +28,7 @@ function Skills() {
                 <div className={style.skills}>
                     <Skill
                         src={antdesign}
-                        alt={'antdesign logo'}
+                        alt={'ant design logo'}
                         title={'Ant Design'}
                         description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
                     <Skill
