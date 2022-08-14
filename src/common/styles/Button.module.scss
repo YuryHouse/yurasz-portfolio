@@ -11,6 +11,15 @@
   border-radius: 5px;
   text-decoration: none;
   color: $btnColor;
+  transition-duration: 1s;
+  cursor: pointer;
+  &:hover {
+    text-decoration: none;
+    //transform: scale(1.2);
+    transition-duration: 1s;
+    background-color: $bgColor;
+    border: 1px solid $btnColor;
+  }
   background-color: $primaryColor;
   @media screen and (max-width: 480px) {
     margin: 10px auto;

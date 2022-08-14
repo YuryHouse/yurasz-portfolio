@@ -15,19 +15,19 @@ function Footer() {
                 <h2 className={style.title}>Yury Zhykharka</h2>
                 <div className={style.footer}>
                     <FooterElement
-                        href={'/'}
+                        href={'https://t.me/YuryHouse'}
                         src={telegram}
                         alt={'telegram logo'}/>
                     <FooterElement
-                        href={'/'}
+                        href={'https://www.facebook.com/yurasz'}
                         src={facebook}
                         alt={'facebook logo'}/>
                     <FooterElement
-                        href={'/'}
+                        href={'https://www.linkedin.com/in/yury-zhykharka-5ba37477/'}
                         src={linkedin}
                         alt={'linkedin logo'}/>
                     <FooterElement
-                        href={'/'}
+                        href={'https://github.com/YuryHouse'}
                         src={smallgithub}
                         alt={'github logo'}/>
                 </div>
