@@ -8,11 +8,13 @@ function Main() {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.intro}>
-                    <span>Hey There</span>
-                    <h1>I am Yury Zhykharka</h1>
-                    <p>Front-end developer</p>
+                    <div>Hey There</div>
+                    <span>I am Yury <span>Zhykharka</span></span>
+                    <h1>Front-end developer</h1>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo}>
+                    <div className={style.image}></div>
+                </div>
             </div>
         </div>
     );

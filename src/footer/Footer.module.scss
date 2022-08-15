@@ -11,7 +11,7 @@
         justify-content: flex-start;
         .title {
             color: $textColor;
-            @include text(24px, 2.0);
+            @include text(18px, 2.0);
             font-family: 'Montserrat', sans-serif;
         }
 
