@@ -2,11 +2,19 @@
 @import "../common/styles/sass/mixins";
 
 .mainBlock {
-  background-color: #222;
   height: 100vh;
   @media screen and (max-width: 1000px) {
     height: min-content;
     padding: 50px 0;
+  }
+
+  .particle {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
   }
 
   .intro {
@@ -37,10 +45,24 @@
             content: '';
             position: absolute;
             width: 100%;
-            height: 20px;
+            height: 5px;
             background-color: $primaryColor;
-            bottom: 0;
+            bottom: 17px;
             z-index: -1;
+          }
+        }
+      }
+      &:nth-child(3) {
+        span {
+          @include text(36px, 2.5);
+          color: $textColor;
+          margin: 0;
+          @media screen and (max-width: 1300px) {
+            text-align: center;
+          }
+          @media screen and (max-width: 500px) {
+            text-align: center;
+            @include text(36px, 1.2);
           }
         }
       }
@@ -48,19 +70,6 @@
       @media screen and (max-width: 800px) {
         display: block;
         text-align: center;
-      }
-    }
-
-    h1 {
-      @include text(36px, 2.5);
-      color: $textColor;
-      margin: 0;
-      @media screen and (max-width: 1300px) {
-        text-align: center;
-      }
-      @media screen and (max-width: 500px) {
-        text-align: center;
-        @include text(36px, 1.2);
       }
     }
   }

@@ -18,89 +18,92 @@ import redux from "../assets/icons/redux.png"
 import sass from "../assets/icons/sass.png"
 import storybook from "../assets/icons/storybook.png"
 import ts from "../assets/icons/ts.png"
+import Fade from "react-reveal/Fade";
 
 
 function Skills() {
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title name = {"Skills"}/>
+                <Title name={"Skills"}/>
                 <div className={style.skills}>
-                    <Skill
-                        src={antdesign}
-                        alt={'ant design logo'}
-                        title={'Ant Design'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={axios}
-                        alt={'axios logo'}
-                        title={'Axios'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={css3}
-                        alt={'css3 logo'}
-                        title={'CSS3'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={formik}
-                        alt={'formik logo'}
-                        title={'Formik'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={git}
-                        alt={'git logo'}
-                        title={'Git'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={github}
-                        alt={'github logo'}
-                        title={'GitHub'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={html5}
-                        alt={'html5 logo'}
-                        title={'HTML5'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={js}
-                        alt={'js logo'}
-                        title={'JavaScript'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={mui}
-                        alt={'mui logo'}
-                        title={'MaterialUI'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={postman}
-                        alt={'postman logo'}
-                        title={'Postman'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={react}
-                        alt={'react logo'}
-                        title={'React'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={redux}
-                        alt={'redux logo'}
-                        title={'Redux & Redux Toolkit'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={sass}
-                        alt={'sass logo'}
-                        title={'Sass'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={storybook}
-                        alt={'storybook logo'}
-                        title={'Storybook'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
-                    <Skill
-                        src={ts}
-                        alt={'ts logo'}
-                        title={'TypeScript'}
-                        description = {'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'} />
+                    <Fade bottom>
+                        <Skill
+                            src={antdesign}
+                            alt={'ant design logo'}
+                            title={'Ant Design'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={axios}
+                            alt={'axios logo'}
+                            title={'Axios'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={css3}
+                            alt={'css3 logo'}
+                            title={'CSS3'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={formik}
+                            alt={'formik logo'}
+                            title={'Formik'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={git}
+                            alt={'git logo'}
+                            title={'Git'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={github}
+                            alt={'github logo'}
+                            title={'GitHub'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={html5}
+                            alt={'html5 logo'}
+                            title={'HTML5'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={js}
+                            alt={'js logo'}
+                            title={'JavaScript'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={mui}
+                            alt={'mui logo'}
+                            title={'MaterialUI'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={postman}
+                            alt={'postman logo'}
+                            title={'Postman'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={react}
+                            alt={'react logo'}
+                            title={'React'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={redux}
+                            alt={'redux logo'}
+                            title={'Redux & Redux Toolkit'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={sass}
+                            alt={'sass logo'}
+                            title={'Sass'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={storybook}
+                            alt={'storybook logo'}
+                            title={'Storybook'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                        <Skill
+                            src={ts}
+                            alt={'ts logo'}
+                            title={'TypeScript'}
+                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                    </Fade>
                 </div>
             </div>
         </div>
