@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yurasz-portfolio/static/css/main.541f4e75.css",
-    "main.js": "/yurasz-portfolio/static/js/main.e80cd1f3.js",
+    "main.css": "/yurasz-portfolio/static/css/main.a8d1838e.css",
+    "main.js": "/yurasz-portfolio/static/js/main.a3f28239.js",
     "static/js/787.547ea6f9.chunk.js": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js",
     "static/media/social.jpg": "/yurasz-portfolio/static/media/social.9053b1749d450a8e983a.jpg",
     "static/media/antdesign.png": "/yurasz-portfolio/static/media/antdesign.eee5797548f263ac5241.png",
@@ -19,12 +19,12 @@
     "static/media/formik.png": "/yurasz-portfolio/static/media/formik.95443f3a820d21784c67.png",
     "static/media/ts.png": "/yurasz-portfolio/static/media/ts.da8bdeb27bfc21b49764.png",
     "index.html": "/yurasz-portfolio/index.html",
-    "main.541f4e75.css.map": "/yurasz-portfolio/static/css/main.541f4e75.css.map",
-    "main.e80cd1f3.js.map": "/yurasz-portfolio/static/js/main.e80cd1f3.js.map",
+    "main.a8d1838e.css.map": "/yurasz-portfolio/static/css/main.a8d1838e.css.map",
+    "main.a3f28239.js.map": "/yurasz-portfolio/static/js/main.a3f28239.js.map",
     "787.547ea6f9.chunk.js.map": "/yurasz-portfolio/static/js/787.547ea6f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.541f4e75.css",
-    "static/js/main.e80cd1f3.js"
+    "static/css/main.a8d1838e.css",
+    "static/js/main.a3f28239.js"
   ]
 }
