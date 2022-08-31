@@ -23,7 +23,7 @@ import Fade from "react-reveal/Fade";
 
 function Skills() {
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title name={"Skills"}/>
                 <div className={style.skills}>

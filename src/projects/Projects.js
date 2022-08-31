@@ -25,7 +25,7 @@ function Projects() {
     };
     return (
         <div className={style.projectsBlock}>
-            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+            <div className={`${styleContainer.container} ${style.projectsContainer}`}  id={'projects'}>
                 <Title name={"My Projects"}/>
                 <div className={style.projects}>
                     <Fade bottom>

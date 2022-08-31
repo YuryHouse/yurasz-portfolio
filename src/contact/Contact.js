@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 function Contact() {
     return (
-        <div className={style.contactBlock}>
+        <div className={style.contactBlock} id={'contact'}>
             <div className={`${styleContainer.container} ${style.contactContainer}`}>
                 <Title name={'Contact me'}/>
                 <Fade right cascade>

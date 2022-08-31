@@ -6,6 +6,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
     @media screen and (max-width: 844px) {
             justify-content: center;
 

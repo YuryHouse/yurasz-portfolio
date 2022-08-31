@@ -9,7 +9,7 @@ import Tilt from 'react-tilt'
 
 function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div className={style.mainBlock} id={'home'}>
             <div className={style.particle}>
                 <ParticleBackground/>
             </div>

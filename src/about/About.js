@@ -6,7 +6,7 @@ import styleButton from '../common/styles/Button.module.scss'
 
 function About() {
     return (
-        <div className={style.aboutBlock}>
+        <div className={style.aboutBlock} id={'about'}>
             <div className={`${styleContainer.container} ${style.aboutContainer}`}>
                 <Title name={'About me'}/>
                 <div className={style.buttonContainer}>

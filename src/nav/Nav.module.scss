@@ -5,17 +5,6 @@
     width: 500px;
     display: flex;
     justify-content: space-between;
-    :nth-child(4) {
-        margin-right: 30px;
-    }
-    @media screen and (max-width: 844px) {
-        :nth-child(4) {
-            margin-right: 0;
-        }
-            margin: 0 5px;
-    }
-}
-.nav a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -23,4 +12,21 @@
     color: $headersColor;
     padding: 5px;
     @include text(17px, 1.2);
+    :nth-child(5) {
+        margin-right: 30px;
+    }
+    .active {
+        color: $primaryColor;
+    }
+    .link {
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+    @media screen and (max-width: 844px) {
+        :nth-child(5) {
+            margin-right: 0;
+        }
+            margin: 0 5px;
+    }
 }
