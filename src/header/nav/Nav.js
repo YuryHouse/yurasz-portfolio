@@ -42,7 +42,7 @@ function Nav() {
                       hashSpy={true}
                       offset={0}
                       duration={500}
-                >Project</Link>
+                >Projects</Link>
                 <Link activeClass={style.active}
                       className={style.link}
                       to="skills"

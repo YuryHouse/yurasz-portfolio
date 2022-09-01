@@ -2,3 +2,11 @@
   font-size: $fontSize;
   line-height: $lineHeight
 }
+
+@mixin flex($flexWrap, $direction, $jstCont, $alItm) {
+  display: flex;
+  flex-wrap: $flexWrap;
+  flex-direction: $direction;
+  justify-content: $jstCont;
+  align-items: $alItm;
+}

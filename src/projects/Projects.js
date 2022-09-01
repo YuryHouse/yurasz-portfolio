@@ -31,7 +31,7 @@ function Projects() {
                     <Fade bottom>
                         <Project
                             style={list}
-                            title={'Social network'}
+                            title={'Social Network'}
                             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
                                 'sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
                         <Project
@@ -48,7 +48,7 @@ function Projects() {
                                 'labore et dolore magna aliqua.'}/>
                         <Project
                             style={agency}
-                            title={'Estate agency'}
+                            title={'Real Estate Agency'}
                             description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}/>
                     </Fade>
                 </div>
