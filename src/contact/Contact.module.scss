@@ -6,25 +6,21 @@
     height: auto;
     background-color: $bgColor;
     padding-bottom: 10px;
+    color: white;
 
     .contactContainer {
         flex-direction: column;
         justify-content: flex-start;
 
-        .contact {
-            width: 50%;
-            flex-direction: column;
-            align-items: center;
+        .lineInput {
             display: flex;
-            flex-wrap: wrap;
-            @media screen and (max-width: 660px) {
-                width: 80%;
-            }
-        }
+            justify-content: space-around;
+            align-content: space-around;
+            margin-bottom: 30px;
 
-        .contact input, .contact textarea {
-            width: 100%;
-            margin: 10px 0;
+            @media screen and (max-width: 800px) {
+                flex-direction: column;
+            }
         }
     }
 }
