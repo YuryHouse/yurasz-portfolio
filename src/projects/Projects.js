@@ -25,31 +25,30 @@ function Projects() {
     };
     return (
         <div className={style.projectsBlock}>
-            <div className={`${styleContainer.container} ${style.projectsContainer}`}  id={'projects'}>
+            <div className={`${styleContainer.container} ${style.projectsContainer}`} id={'projects'}>
                 <Title name={"My Projects"}/>
                 <div className={style.projects}>
                     <Fade bottom>
                         <Project
                             style={list}
                             title={'Social Network'}
-                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-                                'sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                            description={'This is a social network application containing the main functionality of modern social networks..'}
+                            link={'https://github.com/YuryHouse/social-network-new'}/>
                         <Project
                             style={cards}
                             title={'Learning Cards'}
-                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-                                'sed do eiusmod tempor incididuntut labore et dolore magna aliqua.'}/>
+                            description={'This application was created for training on educational cards using the question-answer system.'}
+                            link={'https://github.com/YuryHouse/learning-cards'}/>
                         <Project
                             style={social}
                             title={'Todolist'}
-                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-                                'sed do eiusmod tempor incididuntut labore et dolore magna aliqua.Lorem' +
-                                'ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntut' +
-                                'labore et dolore magna aliqua.'}/>
+                            description={'This is a modern to-do list application.'}
+                            link={'https://github.com/YuryHouse/todolist-ts-17'}/>
                         <Project
                             style={agency}
                             title={'Real Estate Agency'}
-                            description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}/>
+                            description={'This project is a one-page website of a real estate agency.'}
+                            link={'https://github.com/YuryHouse/real-estate-agency'}/>
                     </Fade>
                 </div>
             </div>

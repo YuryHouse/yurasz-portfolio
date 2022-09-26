@@ -7,7 +7,7 @@ function Project(props) {
     return (
         <div className={style.project}>
             <div style={props.style} className={style.imageContainer}>
-                <a className={`${styleButton.button}`} href={'/'}>{'See more'}</a>
+                <a className={`${styleButton.button}`} href={props.link} target={"_blank"} rel={"noopener"}>{'See more'}</a>
             </div>
             <div className={style.projectInfo}>
                 <h3 className={style.projectTitle}>{props.title}</h3>
