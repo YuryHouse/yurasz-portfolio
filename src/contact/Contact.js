@@ -12,7 +12,7 @@ function Contact() {
     const {register, formState: {errors}, handleSubmit} = useForm();
     const onSubmit = ({name, email, message}, e) => {
         e.preventDefault()
-        axios.post('http://localhost:3010/sendMessage', {name, email, message})
+        axios.post('https://gmail-nodejs-main.herokuapp.com/sendMessage', {name, email, message})
             .then(() => {
                 alert('Thank you! Your message has been send.');
             });
